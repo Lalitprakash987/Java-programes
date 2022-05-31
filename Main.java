@@ -1,4 +1,5 @@
 package com.company;
+import java.sql.SQLOutput;
 import java.util.Scanner;
 public class Main {
 
@@ -25,15 +26,21 @@ public class Main {
 
         //Make a jarvis with help of string and Scanner class
         System.out.println("hello good morng");
-        System.out.println("what is your name ");
-        Scanner sc =new Scanner(System.in);
-        String a= sc.nextLine();
-        System.out.println("your name is  " + a);
+        System.out.println("you want to play a game");
+        System.out.println("Give your answer b/w Yes or no");
+        Scanner Yes=new Scanner(System.in);
+        String a=Yes.nextLine();
+        System.out.println(a);
+        if(a.equalsIgnoreCase("Yes")){
+            System.out.println("what is your name ");
+            Scanner sc =new Scanner(System.in);
+            String d= sc.nextLine();
+            System.out.println("your name is  " + d);
 
-        
+        }else {
+            System.out.println("Thankyou");
 
-
-
+        }
 
     }
 }
