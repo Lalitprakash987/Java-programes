@@ -24,23 +24,40 @@ public class Main {
 //        sum=b+d;
 //        System.out.println("sum of two numers   " + sum );
 
-        //Make a jarvis with help of string and Scanner class
-        System.out.println("hello good morng");
-        System.out.println("you want to play a game");
-        System.out.println("Give your answer b/w Yes or no");
-        Scanner Yes=new Scanner(System.in);
-        String a=Yes.nextLine();
-        System.out.println(a);
-        if(a.equalsIgnoreCase("Yes")){
-            System.out.println("what is your name ");
-            Scanner sc =new Scanner(System.in);
-            String d= sc.nextLine();
-            System.out.println("your name is  " + d);
+//        //Make a jarvis with help of string and Scanner class
+//        System.out.println("hello good morng");
+//        System.out.println("you want to play a game");
+//        System.out.println("Give your answer b/w Yes or no");
+//        Scanner Yes=new Scanner(System.in);
+//        String a=Yes.nextLine();
+//        System.out.println(a);
+//        if(a.equalsIgnoreCase("Yes")){
+//            System.out.println("what is your name ");
+//            Scanner sc =new Scanner(System.in);
+//            String d= sc.nextLine();
+//            System.out.println("your name is  " + d);
+//
+//        }else {
+//            System.out.println("Thankyou");
+//
+//        }
+     //for loop for asending and decending counting
+//        for (int i=10;i>=1;i--){
+//        System.out.println(i);
+//        }
+//        for (int i=1;1<=10;i++){
+//            System.out.println(i);
+//        }
 
-        }else {
-            System.out.println("Thankyou");
+        //star print)
+         for (int i=1;i<=5;i++){
+             for (int j=1;j<=i;j++){
 
-        }
+                 System.out.print("*");
+             }
 
-    }
+             System.out.println();
+         }
+
+}
 }
